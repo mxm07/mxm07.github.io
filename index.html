@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <h1 style="margin-bottom: 50px">Max Melo</h1>
+        <ul>
+    		<li><a id="aboutlink" class="pinklink" href="#">ABOUT</a></li>
+    		<li><a id="contactlink" class="cyanlink" href="#">CONTACT</a></li>
+    		<li><a id="projectslink" class="yellowlink" href="#">PROJECTS</a></li>
+    		<li><a id="misclink" class="greenlink" href="#">MISC</a></li>
+        </ul>
+    </head>
+
+    <body>
+
+
+        <div class="page" id="about">
+            <div class="maindivider"> <div id="pink"></div> <div id="cyan"></div> <div id="yellow"> </div> <div id="green"> </div> </div>
+            <div id="content" style="height:100%">
+                <p>
+                    Welcome to my portfolio website.  My name is Max Melo, and I am a Computer Science major currently studying at Stevens Institute of Technology.
+                </p>
+                <p>/ <a class="pinklink" style="font-family: 'Comforta';" href="Resume.html">view resume</a> / <a class="cyanlink" style="font-family: 'Comforta';" href="Resume.docx" download>download resume</a> / <a class="yellowlink" style="font-family: 'Comforta';" href="mailto:mxm804@gmail.com">e-mail</a> /</p>
+            </div>
+            <div class="maindivider"> <div id="pink"></div> <div id="cyan"></div> <div id="yellow"> </div> <div id="green"> </div> </div>
+        </div>
+
+
+        <div class="page" id="projects" style="display:none;">
+            <div class="maindivider"> <div id="pink"></div> <div id="cyan"></div> <div id="yellow"> </div> <div id="green"> </div> </div>
+            <div id="content" style="height:100%">
+                <h2 style="margin-bottom: 50px; -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0,0,0,0.004); color: #ffffff; text-align: center;">Projects</h2>
+                <div class="row">
+                    <img src="images/graphi.png" width="150" height="150" style="float:left;">
+                    <div class="rowcontent" style="float:right;">
+                        <p><strong style="color: #1ef3ff;">graphi</strong> is a javascript-based graph visualization software. Planned features include <span>easy graph creation and management, graph traversal, visualization of various trees (red-black trees, B-trees, etc.)</span>, and much more. (WIP)</p>
+                        <br>
+                        <p>/ <a class="cyanlink" style="font-family: 'Comforta';" href="https://mxm07.github.io/graphi/">demo</a> / <a class="cyanlink" style="font-family: 'Comforta';" href="https://github.com/mxm07/graphi">source</a> /</p>
+                    </div>
+                </div> 
+                <div class="divider" id="cyan"></div>
+                <div class="row">
+                    <img src="images/pathfind.png" width="150" height="150" style="float:right;">
+                    <div class="rowcontent" style="float:left;">
+                        <p><strong style="color: #ff23d3;">pathfind</strong> is a puzzle game created in Unity3D.  The player controls a cube and has to move about the board and interact with various tiles to complete levels.  Includes 40+ levels, a fully-featured level editor, and original music composed by me. (WIP)</p>
+                        <br>
+                        <p>/ <a class="pinklink" style="font-family: 'Comforta';" href="https://mxm07.github.io/graphi/">demo</a> / <a class="pinklink" style="font-family: 'Comforta';" href="https://github.com/mxm07/graphi">source</a> /</p>
+                    </div>
+                </div> 
+                <div class="divider" id="pink"></div>
+                <div class="row">
+                    <img src="images/overgrowth.png" width="150" height="150" style="float:left;">
+                    <div class="rowcontent" style="float:right;">
+                        <p><strong style="color: #86ff68;">overgrowth</strong> is an arcade-style game created in Unity3D for a 72-hour Game Jam.  The goal of the game is to contain the spread of weeds using walls.</p>
+                        <br>
+                        <p>/ <a class="greenlink" style="font-family: 'Comforta';" href="https://mxm07.github.io/graphi/">demo</a> / <a class="greenlink" style="font-family: 'Comforta';" href="https://github.com/mxm07/graphi">source</a> /</p>
+                    </div>
+                </div> 
+                <div class="divider" id="green"></div>
+            </div>
+            <div class="maindivider"> <div id="pink"></div> <div id="cyan"></div> <div id="yellow"> </div> <div id="green"> </div> </div>
+        </div>
+
+
+        <div class="page" id="contact" style="display:none;">
+            <div class="maindivider"> <div id="pink"></div> <div id="cyan"></div> <div id="yellow"> </div> <div id="green"> </div> </div>
+                <div id="content" style="height:100%">
+                    <p>
+                    Welcome to my portfolio website.  My name is Max Melo, and I am a Computer Science major  
+                    </p>
+                </div>
+            <div class="maindivider"> <div id="pink"></div> <div id="cyan"></div> <div id="yellow"> </div> <div id="green"> </div> </div>
+        </div>
+
+
+        <div class="page" id="misc" style="display:none;">
+            <div class="maindivider"> <div id="pink"></div> <div id="cyan"></div> <div id="yellow"> </div> <div id="green"> </div> </div>
+                <div id="content" style="height:100%">
+                    <h3 style="margin-bottom: 50px; -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0,0,0,0.004); color: #ffffff; text-align: center;">Miscellaneous Work and Other Small Projects</h2>
+                    <p>Here I'll put any small projects that I've worked on that I felt were not significant enough to put on the Projects page. 
+                </div>
+            <div class="maindivider"> <div id="pink"></div> <div id="cyan"></div> <div id="yellow"> </div> <div id="green"> </div> </div>
+        </div>
+
+
+
+        <script>
+            var about = document.getElementById( "about" );
+            var contact = document.getElementById( "contact" );
+            var proj = document.getElementById( "projects" );
+            var misc = document.getElementById( "misc" );
+
+            var currentPage = about;
+            var t = 0;
+            var animFrame;
+
+            function transitionPage( page1, page2 ) {
+                animFrame = requestAnimationFrame( function() {
+                    var t = 0;
+                    transitionPage( page1, page2 );
+                } );
+
+                t += 0.1;
+
+                page1.style.display = "block";
+                page2.style.display = "block";
+
+                page1.style.opacity = 1 - t;
+                page2.style.opacity = t;
+
+                if( t > 1 ) {
+                    page1.style.display = "none";
+                    t = 0;
+                    cancelAnimationFrame( animFrame );
+                    animFrame = null;
+                }
+            }
+            document.getElementById( "aboutlink" ).addEventListener( "click", function() {
+                if( currentPage == about || animFrame != null ) { return; console.log( "hah" ); }
+
+                about.style.display = 'block';
+                contact.style.display = 'none';
+                proj.style.display = 'none';
+                misc.style.display = 'none';
+
+                transitionPage( currentPage, about );
+                currentPage = about;
+            } );
+            document.getElementById( "contactlink" ).addEventListener( "click", function() {
+                if( currentPage == contact || animFrame != null ) return;
+
+                about.style.display = 'none';
+                contact.style.display = 'block';
+                proj.style.display = 'none';
+                misc.style.display = 'none';
+
+                transitionPage( currentPage, contact );
+                currentPage = about;
+            } );
+            document.getElementById( "projectslink" ).addEventListener( "click", function() {
+                if( currentPage == proj || animFrame != null ) return;
+
+                about.style.display = 'none';
+                contact.style.display = 'none';
+                proj.style.display = 'block';
+                misc.style.display = 'none';
+
+                transitionPage( currentPage, proj );
+                currentPage = proj;
+            } );
+            document.getElementById( "misclink" ).addEventListener( "click", function() {
+                if( currentPage == misc || animFrame != null ) return;
+
+                about.style.display = 'none';
+                contact.style.display = 'none';
+                proj.style.display = 'none';
+                misc.style.display = 'block';
+
+                transitionPage( currentPage, misc );
+                currentPage = misc;
+            } );
+        </script>
+    </body>
+</html>
