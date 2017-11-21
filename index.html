@@ -1,164 +1,162 @@
 <!DOCTYPE html>
 <html>
 	<head>
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
-        <h1 style="margin-bottom: 50px">Max Melo</h1>
-        <ul>
-    		<li><a id="aboutlink" class="pinklink" href="#">ABOUT</a></li>
-    		<li><a id="contactlink" class="cyanlink" href="#">CONTACT</a></li>
-    		<li><a id="projectslink" class="yellowlink" href="#">PROJECTS</a></li>
-    		<li><a id="misclink" class="greenlink" href="#">MISC</a></li>
-        </ul>
-    </head>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	</head>
+	<body background="handmadepaper.png">
+		<header id="header">
+			<div class="spacer"></div>
+			<div id="header-content">
+				<ul>
+					<li><a id="about_link" href="#">ABOUT</a></li>
+					<h1>MAX MELO</h1>
+					<li><a id="projects_link" href="#">PROJECTS</a></li>
+				</ul>
+				<div class="main-divider">
+					<div class="main-divider-left"></div>
+					<div class="main-divider-line"></div>
+					<div class="main-divider-right"></div>
+				</div>
+			</div>
+		</header>
 
-    <body>
+		<main id="main">
+			<p>
+Welcome to my portfolio website. My name is Max Melo, and I am a programmer and Computer Science major. Site still WIP!
+			</p>
 
+			<div class="sub-divider"></div>
 
-        <div class="page" id="about">
-            <div class="maindivider"> <div id="pink"></div> <div id="cyan"></div> <div id="yellow"> </div> <div id="green"> </div> </div>
-            <div id="content" style="height:100%">
-                <p>
-                    Welcome to my portfolio website.  My name is Max Melo, and I am a Computer Science major currently studying at Stevens Institute of Technology.
-                </p>
-                <p>/ <a class="pinklink" style="font-family: 'Comforta';" href="Resume.html">view resume</a> / <a class="cyanlink" style="font-family: 'Comforta';" href="Resume.docx" download>download resume</a> / <a class="yellowlink" style="font-family: 'Comforta';" href="mailto:mxm804@gmail.com">e-mail</a> /</p>
-            </div>
-            <div class="maindivider"> <div id="pink"></div> <div id="cyan"></div> <div id="yellow"> </div> <div id="green"> </div> </div>
-        </div>
+			<h2 id="about_header">ABOUT</h2>
 
+			<table>
+				<tr>
+					<td class="left">Name</td>
+					<td class="right">Max Melo</td>
+				</tr>
+				<tr>
+					<td class="left">Major</td>
+					<td class="right">Computer Science</td>
+				</tr>
+				<tr>
+					<td class="left">University</td>
+					<td class="right">Stevens Institute of Technology</td>
+				</tr>
+				<tr>
+					<td class="left">Expected Graduation</td>
+					<td class="right">May 2019</td>
+				</tr>
+				<tr>
+					<td class="left">Interests</td>
+					<td class="right">Programming, Music, Gaming, Coffee, Speedcubing, Hiking, Drawing, Reading</td>
+				</tr>
+				<tr><td></td></tr>
+				<tr>
+					<td class="label" colspan="2">Contact</td>
+				</tr>
+				<tr>
+					<td class="left">E-mail</td>
+					<td class="right">mxm804@gmail.com</td>
+				</tr>
+				<tr>
+					<td class="left">Phone</td>
+					<td class="right">(973) 572-5243</td>
+				</tr>
+			</table>
 
-        <div class="page" id="projects" style="display:none;">
-            <div class="maindivider"> <div id="pink"></div> <div id="cyan"></div> <div id="yellow"> </div> <div id="green"> </div> </div>
-            <div id="content" style="height:100%">
-                <h2 style="margin-bottom: 50px; -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0,0,0,0.004); color: #ffffff; text-align: center;">Projects</h2>
-                <div class="row">
-                    <img src="images/graphi.png" width="150" height="150" style="float:left;">
-                    <div class="rowcontent" style="float:right;">
-                        <p><strong style="color: #1ef3ff;">graphi</strong> is a javascript-based graph visualization software. Planned features include <span>easy graph creation and management, graph traversal, visualization of various trees (red-black trees, B-trees, etc.)</span>, and much more. (WIP)</p>
-                        <br>
-                        <p>/ <a class="cyanlink" style="font-family: 'Comforta';" href="https://mxm07.github.io/graphi/">demo</a> / <a class="cyanlink" style="font-family: 'Comforta';" href="https://github.com/mxm07/graphi">source</a> /</p>
-                    </div>
-                </div> 
-                <div class="divider" id="cyan"></div>
-                <div class="row">
-                    <img src="images/pathfind.png" width="150" height="150" style="float:right;">
-                    <div class="rowcontent" style="float:left;">
-                        <p><strong style="color: #ff23d3;">pathfind</strong> is a puzzle game created in Unity3D.  The player controls a cube and has to move about the board and interact with various tiles to complete levels.  Includes 40+ levels, a fully-featured level editor, and original music composed by me. (WIP)</p>
-                        <br>
-                        <p>/ <a class="pinklink" style="font-family: 'Comforta';" href="https://mxm07.github.io/graphi/">demo</a> / <a class="pinklink" style="font-family: 'Comforta';" href="https://github.com/mxm07/graphi">source</a> /</p>
-                    </div>
-                </div> 
-                <div class="divider" id="pink"></div>
-                <div class="row">
-                    <img src="images/overgrowth.png" width="150" height="150" style="float:left;">
-                    <div class="rowcontent" style="float:right;">
-                        <p><strong style="color: #86ff68;">overgrowth</strong> is an arcade-style game created in Unity3D for a 72-hour Game Jam.  The goal of the game is to contain the spread of weeds using walls.</p>
-                        <br>
-                        <p>/ <a class="greenlink" style="font-family: 'Comforta';" href="https://mxm07.github.io/graphi/">demo</a> / <a class="greenlink" style="font-family: 'Comforta';" href="https://github.com/mxm07/graphi">source</a> /</p>
-                    </div>
-                </div> 
-                <div class="divider" id="green"></div>
-            </div>
-            <div class="maindivider"> <div id="pink"></div> <div id="cyan"></div> <div id="yellow"> </div> <div id="green"> </div> </div>
-        </div>
+			<div class="sub-divider"></div>
 
+			<h2 id="projects_header">PROJECTS</h2>
 
-        <div class="page" id="contact" style="display:none;">
-            <div class="maindivider"> <div id="pink"></div> <div id="cyan"></div> <div id="yellow"> </div> <div id="green"> </div> </div>
-                <div id="content" style="height:100%">
-                    <p>
-                    Welcome to my portfolio website.  My name is Max Melo, and I am a Computer Science major  
-                    </p>
-                </div>
-            <div class="maindivider"> <div id="pink"></div> <div id="cyan"></div> <div id="yellow"> </div> <div id="green"> </div> </div>
-        </div>
+			<div class="project_row">
+				<div class="img_crop">
+					<img src="images/graphi.png">
+				</div>
+				<p><strong>graphi</strong> is a javascript-based graph visualization software. Planned features include easy graph creation and management, graph traversal, visualization of various trees (red-black trees, B-trees, etc.), and much more. (WIP)</p>
+				<div class="btn_wrapper">
+					<button id="btn_graphi_src">
+						<img src="images/codeicon.png">
+					</button>
+					<button id="btn_graphi_demo">
+						<img src="images/eyeicon.png">
+					</button>
+				</div>
+			</div>
+			<div class="project_row">
+				<div class="img_crop">
+					<img src="images/pathfind.png">
+				</div>
+				<p><strong>pathfind</strong> is a puzzle game created in Unity3D.  The player controls a cube and has to move about the board and interact with various tiles to complete levels.  Includes 40+ levels, a fully-featured level editor, and original music. (WIP)</p>
+				<div class="btn_wrapper">
+					<button id="btn_pathfind_src">
+						<img src="images/codeicon.png">
+					</button>
+					<button id="btn_pathfind_demo"> 
+						<img src="images/eyeicon.png">
+					</button>
+				</div>
+			</div>
+			<div class="project_row">
+				<div class="img_crop">
+					<img src="images/overgrowth.png">
+				</div>
+				<p><strong>overgrowth</strong> is an arcade-style game created in Unity3D for a 72-hour Game Jam.  The goal of the game is to contain the spread of weeds using walls.</p>
+				<div class="btn_wrapper">
+					<button id="btn_overgrowth_src">
+						<img src="images/codeicon.png">
+					</button>
+					<button id="btn_overgrowth_demo"> 
+						<img src="images/eyeicon.png">
+					</button>
+				</div>
+			</div>
+			<div class="project_row">
+				<div class="img_crop">
+					<img src="images/jstacker.png">
+				</div>
+				<p><strong>jstacker</strong> is a simple arcade-style stacking game written in javascript. See how high you can stack!</p>
+				<div class="btn_wrapper">
+					<button id="btn_jstacker_src">
+						<img src="images/codeicon.png">
+					</button>
+					<button id="btn_jstacker_demo"> 
+						<img src="images/eyeicon.png">
+					</button>
+				</div>
+			</div>
 
+			<br><br><br><br>
+			<div class="main-divider">
+				<div class="main-divider-left"></div>
+				<div class="main-divider-line"></div>
+				<div class="main-divider-right"></div>
+			</div>
+		</main>
 
-        <div class="page" id="misc" style="display:none;">
-            <div class="maindivider"> <div id="pink"></div> <div id="cyan"></div> <div id="yellow"> </div> <div id="green"> </div> </div>
-                <div id="content" style="height:100%">
-                    <h3 style="margin-bottom: 50px; -webkit-font-smoothing: antialiased; text-shadow: 1px 1px 1px rgba(0,0,0,0.004); color: #ffffff; text-align: center;">Miscellaneous Work and Other Small Projects</h2>
-                    <p>Here I'll put any small projects that I've worked on that I felt were not significant enough to put on the Projects page. 
-                </div>
-            <div class="maindivider"> <div id="pink"></div> <div id="cyan"></div> <div id="yellow"> </div> <div id="green"> </div> </div>
-        </div>
+		<script type="text/javascript" src="smoothscroll.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+	<script>
+		redirects = {
+			"btn_graphi_src": "https://github.com/mxm07/graphi.git",
+			"btn_graphi_demo": "./graphi/index.html",
+			"btn_pathfind_src": "https://github.com/mxm07/pathfind",
+			"btn_pathfind_demo": "./pathfind_demo/index.html",
+			"btn_overgrowth_src": "https://github.com/mxm07/overgrowth",
+			"btn_overgrowth_demo": "./overgrowth_demo/index.html",
+			"btn_jstacker_src": "https://github.com/mxm07/jstacker",
+			"btn_jstacker_demo": "./jstacker/index.html",
+			
+		}
 
-
-
-        <script>
-            var about = document.getElementById( "about" );
-            var contact = document.getElementById( "contact" );
-            var proj = document.getElementById( "projects" );
-            var misc = document.getElementById( "misc" );
-
-            var currentPage = about;
-            var t = 0;
-            var animFrame;
-
-            function transitionPage( page1, page2 ) {
-                animFrame = requestAnimationFrame( function() {
-                    var t = 0;
-                    transitionPage( page1, page2 );
-                } );
-
-                t += 0.1;
-
-                page1.style.display = "block";
-                page2.style.display = "block";
-
-                page1.style.opacity = 1 - t;
-                page2.style.opacity = t;
-
-                if( t > 1 ) {
-                    page1.style.display = "none";
-                    t = 0;
-                    cancelAnimationFrame( animFrame );
-                    animFrame = null;
-                }
-            }
-            document.getElementById( "aboutlink" ).addEventListener( "click", function() {
-                if( currentPage == about || animFrame != null ) { return; console.log( "hah" ); }
-
-                about.style.display = 'block';
-                contact.style.display = 'none';
-                proj.style.display = 'none';
-                misc.style.display = 'none';
-
-                transitionPage( currentPage, about );
-                currentPage = about;
-            } );
-            document.getElementById( "contactlink" ).addEventListener( "click", function() {
-                if( currentPage == contact || animFrame != null ) return;
-
-                about.style.display = 'none';
-                contact.style.display = 'block';
-                proj.style.display = 'none';
-                misc.style.display = 'none';
-
-                transitionPage( currentPage, contact );
-                currentPage = about;
-            } );
-            document.getElementById( "projectslink" ).addEventListener( "click", function() {
-                if( currentPage == proj || animFrame != null ) return;
-
-                about.style.display = 'none';
-                contact.style.display = 'none';
-                proj.style.display = 'block';
-                misc.style.display = 'none';
-
-                transitionPage( currentPage, proj );
-                currentPage = proj;
-            } );
-            document.getElementById( "misclink" ).addEventListener( "click", function() {
-                if( currentPage == misc || animFrame != null ) return;
-
-                about.style.display = 'none';
-                contact.style.display = 'none';
-                proj.style.display = 'none';
-                misc.style.display = 'block';
-
-                transitionPage( currentPage, misc );
-                currentPage = misc;
-            } );
-        </script>
-    </body>
+		for (var key in redirects) {
+			if (redirects.hasOwnProperty(key)) {
+				(function(pk) {
+					document.getElementById(pk).addEventListener("click", function(e) {
+						window.location.href = redirects[pk];
+					});
+				})(key);
+			}
+		}
+	</script>
 </html>

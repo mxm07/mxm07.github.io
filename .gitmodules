@@ -1,0 +1,12 @@
+[submodule "jstacker"]
+	path = jstacker
+	url = https://github.com/mxm07/jstacker.git
+[submodule "pathfind_demo"]
+	path = pathfind_demo
+	url = https://github.com/mxm07/pathfind_demo.git
+[submodule "overgrowth_demo"]
+	path = overgrowth_demo
+	url = https://github.com/mxm07/overgrowth_demo.git
+[submodule "graphi"]
+	path = graphi
+	url = https://github.com/mxm07/graphi.git
