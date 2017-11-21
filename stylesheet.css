@@ -253,3 +253,8 @@ td.label {
 	-webkit-filter: invert(100%);
 	filter: invert(100%);
 }
+
+a#resume {
+	color: #58638e;
+	text-decoration: underline;
+}
