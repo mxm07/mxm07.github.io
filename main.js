@@ -1,27 +1,29 @@
-var nav = document.getElementById( "header" );
-var main = document.getElementById( "main" );
+var nav = document.getElementById("header");
+var main = document.getElementById("main");
 
 var scrolled = false;
 
-window.addEventListener( "scroll", function() {
-	if( document.body.scrollTop > 150 ) {
-		if( !scrolled ) {
+window.addEventListener("scroll", function() {
+	var top = (window.pageYOffset || document.scrollTop)  - (document.clientTop || 0);
+
+	if (top > 150) {
+		if (!scrolled) {
 			nav.className = "header-scrolled";
 			main.className = "main-scrolled";
 			scrolled = true;
 		}
 
 		//Make sure the navbar background scrolls with the rest of the page
-		var val = "0px " + (-document.body.scrollTop) + "px";
+		var val = "0px " + (-top) + "px";
 		nav.style.backgroundPosition = val;
 	} else {
-		if( scrolled ) {
+		if (scrolled) {
 			nav.className = "";
 			main.className = "";
 			scrolled = false;
 		}
 	}
-} );
+});
 
 var cumulativeOffset = function(element) {
     var top = 0, left = 0;
